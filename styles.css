@@ -1,0 +1,44 @@
+/* add your CSS here */
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+#card {
+   padding: 1em;
+    width: 300px;
+    background: #fafafa;
+    box-shadow: 7px 13px 18px -5px rgba(214,214,214,1); /*    I use this website to help me in box-shadow http://www.cssmatic.com/box-shadow*/
+    border-radius: 10px;
+    border:solid;
+    border-color:#f2f2f2;
+    border-width:1px;
+    color: #555555; 
+}
+.img-size{
+    width: 300px;
+}
+.card-info{
+    border:solid;
+    border-color:#f2f2f2;
+    border-width:1px;
+    padding: 1em;
+    font-size: 12px;
+    font-weight:300;
+}
+.horse-nteresting-fact{
+    font-style: italic;
+}
+.horse-list{
+    /* I took this css style from stack overflow https://stackoverflow.com/questions/13938975/how-to-remove-indentation-from-an-unordered-list-item   
+    list-style:none;
+    padding-left:0; 
+    */
+    list-style:none;
+    padding-left:0; 
+}
+.horse-list-item{
+    font-weight: 600; 
+}
+.horse-description{
+   font-weight:300; 
+}
+
